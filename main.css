@@ -1,0 +1,61 @@
+body {
+  color: #353535;
+  font-family: 'Baloo 2', cursive;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+  opacity: .7;
+}
+
+a {
+  color: #353535;
+}
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  outline: none;
+  /* box-shadow: none; */
+}
+a:hover {
+  /* text-decoration: underline; */
+  color: #7EA6F4;
+}
+
+.navbar {
+  padding: 0.1rem;
+}
+
+.navbar-toggler-icon {
+  font-size: 0.8em;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.spacing-top {
+  padding-top: 4%;
+}
+
+.android {
+  font-size: 11px;
+  margin-top: 1rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
