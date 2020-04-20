@@ -59,3 +59,10 @@ a:hover {
   font-weight: bold;
   letter-spacing: -0.5px;
 }
+
+.divider {
+  background-color: #7EA6F4;
+  height: 0.5px;
+  display: block;
+  margin-bottom: 1em;
+}
