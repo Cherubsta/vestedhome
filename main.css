@@ -61,8 +61,15 @@ a:hover {
 }
 
 .divider {
-  background-color: #7EA6F4;
+  background-color: #353535;
   height: 0.5px;
   display: block;
   margin-bottom: 1em;
+}
+.img-heading {
+  height: 3em;
+  background-color: #fff;
+  display: block;
+  opacity: 0.98;
+  margin-bottom: 2em;
 }
