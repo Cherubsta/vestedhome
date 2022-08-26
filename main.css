@@ -75,3 +75,9 @@ a:hover {
   opacity: 0.98;
   margin-bottom: 2em;
 }
+.BigButton {
+  transition: transform .2s; /* Animation */
+}
+.BigButton:hover {
+  transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
