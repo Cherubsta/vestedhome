@@ -77,6 +77,13 @@ a:hover {
 }
 .BigButton {
   transition: transform .2s; /* Animation */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
 .BigButton:hover {
   transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
