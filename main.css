@@ -1,5 +1,5 @@
 body {
-  color: #353535;
+  color: #404266;
   font-family: 'Baloo 2', Montserrat, sans-serif;
 }
 
@@ -7,11 +7,12 @@ h1 {
   font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
   font-weight: 800;
   font-size: 3rem;
+  color: #353535;
 }
 
 p {
   font-size: 1.2rem;
-  opacity: .7;
+  /* opacity: .7; */
 }
 
 a {
@@ -50,14 +51,15 @@ a:hover {
 }
 
 .spacing-top {
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
-.android {
-  font-size: 11px;
-  margin-top: 1rem;
+.trial {
+  font-size: 0.8em;
+  margin-top: 0.4rem;
   font-weight: bold;
   letter-spacing: -0.5px;
+  color: #ba6cf5;
 }
 
 .divider {
