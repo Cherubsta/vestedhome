@@ -25,7 +25,7 @@ a, a:visited, a:hover, a:active {
 }
 a:hover {
   /* text-decoration: underline; */
-  color: #7EA6F4;
+  color: #353535;
 }
 
 .navbar {
@@ -87,4 +87,24 @@ a:hover {
 }
 .BigButton:hover {
   transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.font-grey {
+  color: #404266;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-stat {
+  font-size: 40px;
+  font-weight: 800;
+}
+ul {
+  font-weight: 300;
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+li {
+  padding-bottom: .6em;
+  font-size: 0.8rem;
 }
