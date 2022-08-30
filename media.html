@@ -55,21 +55,33 @@
         <h1>Media Press Kit.</h1>
         <h4 class="d-none d-md-block" style="padding-top: 0.8rem">Simple savings goals to get you where you need to be.</h4>
         <h4 class="d-md-none d-lg-none d-xl-none" style="padding-top: 0.8rem">Simple savings goals to get you where you need to be.</h4>
-        <div class="spacing-top"></div>
-        <a href="https://vested-app.s3.amazonaws.com/media.zip" role="button" class="BigButton btn btn-dark">Click to download</a>
-        <a href="href="mailto:contact@vestedapp.com?subject=Hi, vested media team""><p class="trial">Contact us for more.</p></a>
+
+        <div style="margin-top:4.5rem;"></div>
+
+        <a href="https://vested-app.s3.amazonaws.com/media.zip" role="button" class="BigButton btn btn-dark btn-lg">Download Press Kit  🗂</a>
+
+        <div style="margin-top:4.5rem;"></div>
+
+        <!-- The text field -->
+        <span>App Store direct link:  </span>
+        <input type="text" value="https://apple.co/3wlGnbT" id="myInput" style="margin-left:10px;">
+        <!-- The button used to copy the text -->
+        <button onclick="myFunction()" class="btn btn-outline-info btn-sm"> <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="20" height="20" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg> </button>
       </div>
 
-      <div class="row center spacing-top">
-        <p class="center d-none d-md-block" style="max-width:60%;">Designed like a fitness tracker, but for money&mdash;vested makes saving as encouraging as closing your monthly loops. Let vested figure out what you can pocket each month, then hold you to it.</p>
-        <p class="center d-md-none d-lg-none d-xl-none" style="max-width:86%; font-size: 1.1rem; padding-top: 22px; text-align: left;">Designed like a fitness tracker, but for money&mdash;vested makes saving as encouraging as closing your monthly loops. Let vested figure out what you can pocket each month, then hold you to it.</p>
-      </div>
+    </div>
+
+    <div style="margin-top:4.5rem;"></div>
+
+    <div class="row center">
+      <p class="center d-none d-md-block" style="max-width:60%;">Designed like a fitness tracker, but for money&mdash;vested makes saving as encouraging as closing your monthly loops. Let vested figure out what you can pocket each month, then hold you to it.</p>
+      <p class="center d-md-none d-lg-none d-xl-none" style="max-width:86%; font-size: 1.1rem; padding-top: 22px; text-align: left;">Designed like a fitness tracker, but for money&mdash;vested makes saving as encouraging as closing your monthly loops. Let vested figure out what you can pocket each month, then hold you to it.</p>
     </div>
 
     <div style="margin-top:4.5rem;"></div>
     <div class="divider" style="opacity: 0.1"></div>
 
-    <div class="container" style="padding-left: 10%;">
+    <div class="container">
       <div class="row" style="opacity:0.7;">
         <ul class="col">
           <li class="font-bold"><b>Company</b></li>
@@ -104,5 +116,23 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Copy text to clipboard -->
+    <script type="text/javascript">
+      function myFunction() {
+        /* Get the text field */
+        var copyText = document.getElementById("myInput");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+         /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.value);
+
+        /* Alert the copied text */
+        alert("Copied!");
+      }
+    </script>
   </body>
 </html>
