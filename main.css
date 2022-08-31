@@ -67,6 +67,7 @@ a:hover {
   height: 0.5px;
   display: block;
   margin-bottom: 1em;
+  opacity: 0.3;
 }
 .img-heading {
   height: 3em;
